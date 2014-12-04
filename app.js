@@ -13,8 +13,10 @@ $(document).ready(function() {
 
   var $icon = $('.jg-icon');
   var counter = 1;
+  // Set initial icon
   $icon.addClass(icons[0]);
 
+  // Loop through array setting and cleaning up previous classes per iteration
   setInterval(function() {
     if(counter === icons.length) {
       counter = 0;

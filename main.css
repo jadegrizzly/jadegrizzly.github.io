@@ -16,7 +16,8 @@ i, small {
 }
 
 .title-block {
-  padding: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .jg-icon {
